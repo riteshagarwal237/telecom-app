@@ -1,0 +1,2 @@
+# telecom-app
+Telecom service application will allow users to configure their all set of accounts (landline, cellular, broadband etc) on smartphone itself and users can raise all service requests from this application interface. This application will also allow customers to check all previous bills, payment history, unbilled balance and value added services activated on the connections. Application will also inform end users with push notifications based upon customer’s profile and preferences.
