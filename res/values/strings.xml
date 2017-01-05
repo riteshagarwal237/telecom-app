@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TelecomApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="action_label_login">Login</string>
+    <string name="action_label_logout">Logout</string>
+    <string name="title_activity_admin_service_palns">AdminServicePalnsActivity</string>
+    <string name="title_activity_admin_service_requests">AdminServiceRequestsActivity</string>
+
+</resources>

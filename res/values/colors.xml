@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <color name="android_green">#FFA4C639</color>
+    <color name="honeycombish_blue">#FF58BAED</color>
+    <color name="light_blue">#0b84aa</color>
+    <color name="soft_grey">#FF777777</color>
+    <color name="background">#FFEFEFEF</color>
+    <color name="red">#ff0000</color>
+    <color name="light">#efefef </color>
+    <color name="dark">#e0e0ec</color>
+    <color name="white">#ffffff</color>
+    <color name="halftrans">#80000000</color>
+    <color name="comments_themeColor">#2F3B4C</color>
+    <color name="Ash">#c2c2c2</color>
+    <color name="CreamColor">#f2f2f2</color>
+    <color name="blue">#3E3788</color>
+    <color name="black">#222222</color>
+    <!--
+   <color name="segment_selected">#222222</color>
+   <color name="segment_unselected">#FF777777 </color>
+    -->
+    <color name="segment_unselected">#2c323e </color>
+    <color name="segment_selected">#101318</color>
+
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="blue">#2554C7</drawable>
+    <drawable name="green">#347C2C</drawable>
+    <drawable name="orange">#ff9900</drawable>
+    <drawable name="pink">#FF00FF</drawable>
+    <drawable name="violet">#a020f0</drawable>
+    <drawable name="gray">#778899</drawable>
+    <drawable name="red">#C11B17</drawable>
+
+    <color name="vine_green">#ff00b589</color>
+    <color name="bg_capture_progress">#ff000000</color>
+
+</resources>

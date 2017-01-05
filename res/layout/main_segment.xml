@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".HomePage" >
+
+    <include
+        android:id="@+id/mainsegment_titlelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/live" >
+    </include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#f2f2f2"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <com.example.telecomapp.SegmentedRadioGroup
+                android:id="@+id/segment_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f2f2f2"
+                android:checkedButton="@+id/button_cellular"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal"
+                android:paddingTop="10dp" >
+
+                <!-- android:paddingTop="10dp" -->
+
+                <RadioButton
+                    android:id="@+id/button_cellular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:button="@null"
+                    android:padding="10dp"
+                    android:text="Cellular"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/radio_colors"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:id="@+id/button_landline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:button="@null"
+                    android:padding="10dp"
+                    android:text=" Landline"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/radio_colors"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:id="@+id/button_broadband"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1dp"
+                    android:button="@null"
+                    android:padding="10dp"
+                    android:text="Broadband "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/radio_colors"
+                    android:textSize="15dp" />
+            </com.example.telecomapp.SegmentedRadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--
+         <TextView
+        android:id="@+id/home_addaccountTextview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text=" Add Account?"
+    -->
+
+    <Button
+        android:id="@+id/home_addaccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/example"
+        android:text=" Add Account?"
+        android:textColor="@color/blue"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/home_requestsentTV"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Your request has sent."
+        android:textColor="@color/blue"
+        android:textSize="15dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/home_userAccountdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        layout="@layout/user_accountdetails"
+        android:visibility="gone" >
+    </include>
+
+    <include
+        android:id="@+id/home_billpayment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        layout="@layout/billpayment"
+        android:visibility="gone" >
+    </include>
+
+    <include
+        android:id="@+id/home_billhistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        layout="@layout/billhistory"
+        android:visibility="gone" >
+    </include>
+
+    <LinearLayout
+        android:id="@+id/home_paymenthistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/home_paymentbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bill Payment"
+            android:textColor="@color/blue"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/home_accntHistorybutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" View History"
+            android:textColor="@color/blue"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </TextView>
+
+</LinearLayout>
